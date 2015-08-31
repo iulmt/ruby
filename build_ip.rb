@@ -18,7 +18,7 @@ class BuildIp
         _s = i1 > i2 ? i2 : i1
         _e = i1 > i2 ? i1 : i2
         (_s.._e).each{|d|
-          f.puts(IPAddr.new(d, Socket::AF_INET).to_s.chomp)
+          f.puts(IPAddr.new(d, Socket::AF_INET).to_s)
         }
       }
     }
