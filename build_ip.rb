@@ -38,6 +38,3 @@ end
 BuildIp.new('x.txt', 'ipsc.txt').work
 
 puts 'end'
-
-
-sss
